@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color :#000000f0;
+    background-color:#000000f0;
     color: #FFFFFF;
 }
 
@@ -18,11 +18,11 @@ body{
      border: 2px solid gray;
     box-shadow: 0 0 5px gray;
     backdrop-filter: blur(20px);
-    height: 115px;
+    height: 80px;
     border-radius: 140px;
-   margin-top:10px;
-   margin-left: 10px;
-   margin-right: 10px; 
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px; 
     
 }
 
@@ -32,7 +32,7 @@ body{
        font-size: 30px; 
        font-weight: 700;
        font-family: "Poppins", sans-serif;
-      padding-top: 40px;
+      padding-top: 15px;
 
 }
 
@@ -53,7 +53,7 @@ body{
     list-style: none;
     font-size: 14px;
     margin-left: 160px;
-    margin-top: 50px;
+    margin-top:30px;
     
    
 }
@@ -73,9 +73,9 @@ body{
 
 
 .list-box a:hover{
-      color: cyan;
-       box-shadow:0 0 10px  cyan;
-     background:#1f2936;
+    color: cyan;
+    box-shadow:0 0 10px  cyan;
+    background:#1f2936;
     border-radius: 10px;
     padding: 7px;
     transform: scale(1.2,1.2);
@@ -91,9 +91,10 @@ body{
    background-color: #FFFFFF;
     color: #000;
     .navebar{
-        background-color:#000;
-     border: 2px solid black;
-     box-shadow: none;
+     background-color:#000;
+     border: 2px solid silver;
+     box-shadow: 0 0 5px black;
+
     }
   .navebar h1{
         color: #FFFFFF;
@@ -104,24 +105,21 @@ body{
     .list-box a:hover{
        color: cyan;
        box-shadow:0 0 10px cyan;
-      background-color: #1f2936;
-       
-  
+       background-color: #1f2936;
        
     }
     #theme-switch{
         background-color: #1f2936;
-       
+        
        }
      
     #theme-switch svg{
         fill: #c0c0c0;
+
     }
 
       #theme-switch:hover svg{
         fill: #fff;
-        
-        
     }
    
 }
@@ -132,7 +130,7 @@ body{
 
 #theme-switch{
     margin-left: 190px;
-    margin-top: 40px;
+    margin-top: 20px;
     height: 37px;
     width:40px;
     padding:0px;
@@ -152,7 +150,6 @@ body{
 
 #theme-switch svg{
     fill:silver;
-      
 }
   
 
